@@ -5,8 +5,6 @@ import MovieCart from './MovieCart'
 const MovieList = ({title,movie}) => {
 
 
-console.log(movie)
-
   return (
     <div className="px-6 ">
     <h1 className="text-lg md:text-3xl py-4 text-white">{title}</h1>
